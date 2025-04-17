@@ -1,0 +1,104 @@
+/* 전체 슬라이드 기본 설정 */
+.reveal {
+    font-family: 'Nanum Gothic', sans-serif !important;
+    font-size: 28px;  /* 전체 기본 폰트 크기 */
+    color: #1c1c1c;
+    line-height: 1.5;
+    }
+    
+    /* 제목 (슬라이드 제목 - ##) */
+    .reveal h1 {
+    font-size: 48px !important;
+    font-weight: bold;
+    color: #1f4e79;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    /* 중제목 (###) */
+    .reveal h2 {
+    font-size: 38px !important;
+    font-weight: 600;
+    color: #1f4e79;
+    margin-bottom: 15px;
+    }
+    
+    /* 소제목 (####) */
+    .reveal h3 {
+    font-size: 32px !important;
+    font-weight: 500;
+    color: #2a2a2a;
+    margin-bottom: 12px;
+    }
+    
+    /* 목차나 일반 텍스트 목록 */
+    .reveal ul, .reveal ol {
+    font-size: 28px;
+    margin-bottom: 20px;
+    }
+    
+    
+    
+    /* 작은 글자용 클래스 */
+    .small-text {
+        font-size: 20px !important;  /* 원하는 크기로 조정 */
+        line-height: 1.4;
+      }
+    
+    
+    /* 표 */
+    /* 모든 테이블에 글자 크기 조정 */
+    .reveal table {
+        font-size: 18px !important;  /* 원하는 크기로 조정 */
+      }
+      
+      /* 표 제목과 본문 줄 간격 조정도 원한다면 */
+      .reveal th, .reveal td {
+        padding: 6px 10px;  /* 셀 여백 줄이기 */
+      }
+    
+    /* 모든 그래프(이미지) 크기 일괄 적용 */
+    .reveal img {
+        max-width: 80% !important;  /* 가로 크기 조정 (예: 80%) */
+        height: auto !important;    /* 세로 비율은 자동 유지 */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;         /* 가운데 정렬 */
+      }
+    
+    
+    /* 제목 슬라이드 */
+    .reveal .title {
+    font-size: 70px !important;
+    font-weight: bold;
+    color: #fcf230 !important;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px !important;
+    }
+    
+    .reveal .subtitle {
+    font-size: 38px !important;
+    color: hsl(0, 0%, 1%) !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    }
+    
+    .reveal .author {
+    font-size: 24px !important;
+    font-weight: bold;
+    color: #ffffff !important;
+    }
+    
+    
+    
+    
+    /* 푸터 */
+    .reveal .footer p {
+    font-size: 14px !important;
+    color: #ffffff;
+    background-color: #1f4e79;
+    padding: 4px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    }
