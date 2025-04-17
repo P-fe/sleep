@@ -1147,9 +1147,28 @@ plt.title("Fitted vs Residuals")
 
 ## 통계적 한계
 
+
+
+
+
 :::{.columns}
 
 ::: {.column width="50%"}
+
+```{python}
+plt.figure(figsize=(10, 7))
+sns.heatmap(corr_matrix, 
+            annot=True,         # 셀 안에 숫자 표시
+            fmt=".2f",          # 소수점 둘째자리까지
+            cmap="coolwarm",    # 색상 맵
+            square=True, 
+            linewidths=0.5)
+plt.title("Correlation matrix heatmap of numerical features")
+plt.tight_layout()
+plt.grid(False)
+plt.show()
+```
+
 <br><br>
 ![](12.png){width=100%}
 
@@ -1161,17 +1180,25 @@ plt.title("Fitted vs Residuals")
 
 ::: {.column width="50%"}
 
+
+<br>
 1. 📉 **다중공선성(Multicollinearity)**  
-   - `Light sleep`과 `Sleep efficiency`가 서로 강하게 연관되어 있음  
+   - `Light sleep`과 `Deep sleep`가 서로 강하게 연관되어 있음  
    - 독립 변수들 간의 상관이 높아 회귀 모형이 **불안정**해질 수 있음
 
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 2. 📊 **비정규 분포 + 이분포 구조**  
    - 독립 변수들이 **정규성을 따르지 않음**  
    - 밀도 분포에서 **두 개의 봉우리(이봉성)**가 관찰됨  
    - 이는 **데이터 내부에 하위 집단이 존재**할 가능성을 시사하며  
-     👉 **이분화 분석** 또는 **군집 분석**이 더 적절할 수 있음
+     👉 **이분화 분석** 또는 **주성분 분석**이 더 적절할 수 있음
 
 :::
 :::

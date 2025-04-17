@@ -263,7 +263,7 @@
 <section class="slide level2">
 
 <p>⟶강사님의 질문에 대한 <strong>응답성 저하</strong><br>
-⟶과연 LS미래원의 환경은 교육생들의 <strong>수면 효율에 최적화</strong>되어 있는가?</p>
+⟶수면 효율 향상을 위해 Ls미래원과 우리는 <strong>어떠한 노력</strong>을 해야할까?</p>
 <div style="text-align: center;">
 <p><img src="students_2.png" style="width: 80%;"></p>
 </div>
@@ -411,7 +411,7 @@
 </section>
 <section id="데이터-전처리" class="slide level2">
 <h2>데이터 전처리</h2>
-<div id="91a646e7" class="cell" data-execution_count="2">
+<div id="9157d1e3" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href=""></a><span class="co"># 1. 'Awakenings'와 'Exercise frequency' 최빈값 계산</span></span>
 <span id="cb1-2"><a href=""></a>awakening_mode <span class="op">=</span> df[<span class="st">'Awakenings'</span>].mode()[<span class="dv">0</span>]</span>
 <span id="cb1-3"><a href=""></a>exercise_mode <span class="op">=</span> df[<span class="st">'Exercise frequency'</span>].mode()[<span class="dv">0</span>]</span>
@@ -424,8 +424,8 @@
 <span id="cb1-10"><a href=""></a>df[<span class="st">'Alcohol consumption'</span>] <span class="op">=</span> df[<span class="st">'Alcohol consumption'</span>].fillna(Alcohol_mode)</span>
 <span id="cb1-11"><a href=""></a>df[<span class="st">'Caffeine consumption'</span>] <span class="op">=</span> df[<span class="st">'Caffeine consumption'</span>].fillna(Caffeine_mode)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="c069ff96" class="cell" data-execution_count="3">
-<div class="cell-output cell-output-display" data-execution_count="3">
+<div id="3295f244" class="cell" data-execution_count="3">
+<div class="cell-output cell-output-display" data-execution_count="207">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -570,7 +570,7 @@
 <h2>EDA(데이터 현황)</h2>
 <h3 id="운동-빈도와-잠의-관계">운동 빈도와 잠의 관계</h3>
 <div class="column" style="width:50%;">
-<div id="3369df80" class="cell" data-execution_count="4">
+<div id="56414b7f" class="cell" data-execution_count="4">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -580,7 +580,7 @@
 </div>
 </div>
 </div><div class="column" style="width:50%;">
-<div id="e5e1c60e" class="cell" data-execution_count="5">
+<div id="12989bc9" class="cell" data-execution_count="5">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -594,7 +594,7 @@
 
 <h3 id="음주-여부와-잠의-관계">음주 여부와 잠의 관계</h3>
 <div class="column" style="width:50%;">
-<div id="ab7e6701" class="cell" data-execution_count="6">
+<div id="2d15db08" class="cell" data-execution_count="6">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -604,7 +604,7 @@
 </div>
 </div>
 </div><div class="column" style="width:50%;">
-<div id="dc8ef914" class="cell" data-execution_count="7">
+<div id="53e284aa" class="cell" data-execution_count="7">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -621,7 +621,7 @@
 </section>
 <section id="상관관계-그래프" class="slide level2">
 <h2>상관관계 그래프</h2>
-<div id="c64782bf" class="cell" data-execution_count="8">
+<div id="3745c81e" class="cell" data-execution_count="8">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -730,7 +730,7 @@
 <ul>
 <li>정규성 검정</li>
 </ul>
-<div id="89fa5423" class="cell" data-execution_count="10">
+<div id="bca40555" class="cell" data-execution_count="10">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -819,7 +819,7 @@
 <ul>
 <li>정규성 검정</li>
 </ul>
-<div id="c7fb63c9" class="cell" data-execution_count="13">
+<div id="0a6116b4" class="cell" data-execution_count="13">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -905,7 +905,7 @@
 <section class="slide level2">
 
 <h3 id="두번째-흡연-여부별-light-sleep">두번째 : 흡연 여부별 Light sleep %</h3>
-<div id="b702c3be" class="cell" data-execution_count="16">
+<div id="b046fe56" class="cell" data-execution_count="16">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -929,7 +929,7 @@
 <section class="slide level2">
 
 <h3 id="두번째-흡연-여부별-sleep-efficiency">두번째 : 흡연 여부별 Sleep efficiency</h3>
-<div id="ee14df40" class="cell" data-execution_count="19">
+<div id="48d82d7a" class="cell" data-execution_count="19">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -952,7 +952,7 @@
 <section class="slide level2">
 
 <h3 id="세번째-음주-여부별-light-sleep">세번째 : 음주 여부별 Light sleep %</h3>
-<div id="1bde7c99" class="cell" data-execution_count="23">
+<div id="ca4aa451" class="cell" data-execution_count="23">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -975,7 +975,7 @@
 <section class="slide level2">
 
 <h3 id="세번째-음주-여부별-sleep-efficiency">세번째 : 음주 여부별 Sleep efficiency</h3>
-<div id="920bfe45" class="cell" data-execution_count="26">
+<div id="6f090b2f" class="cell" data-execution_count="26">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -1235,7 +1235,7 @@ Short_Sleep, Low_Efficiency, Low_light_sleep은 귀무가설 채택 즉, 카페�
 </table>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div id="4f1d5aea" class="cell" data-fig-height="4" data-fig-width="5" data-execution_count="31">
+<div id="5403e9be" class="cell" data-fig-height="4" data-fig-width="5" data-execution_count="31">
 <div class="cell-output cell-output-display">
 <pre><code>&lt;Figure size 480x480 with 0 Axes&gt;</code></pre>
 </div>
@@ -1407,14 +1407,14 @@ Short_Sleep, Low_Efficiency, Low_light_sleep은 귀무가설 채택 즉, 카페�
 </tr>
 </tbody>
 </table>
-<div id="0413a9ee" class="cell" data-fig-height="4" data-fig-width="5" data-execution_count="32">
+<div id="e5af2969" class="cell" data-fig-height="4" data-fig-width="5" data-execution_count="32">
 <div class="cell-output cell-output-stdout">
 <pre><code>최종 선택된 변수: ['Light sleep percentage', 'Alcohol consumption', 'Awakenings', 'Exercise frequency', 'Yes']</code></pre>
 </div>
 </div>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div id="a46408c2" class="cell" data-fig-height="4" data-fig-width="5" data-execution_count="33">
+<div id="d0d9ac26" class="cell" data-fig-height="4" data-fig-width="5" data-execution_count="33">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -1422,7 +1422,7 @@ Short_Sleep, Low_Efficiency, Low_light_sleep은 귀무가설 채택 즉, 카페�
 </figure>
 </div>
 </div>
-<div class="cell-output cell-output-display" data-execution_count="33">
+<div class="cell-output cell-output-display" data-execution_count="237">
 <pre><code>Text(0.5, 1.0, 'Fitted vs Residuals')</code></pre>
 </div>
 <div class="cell-output cell-output-display">
@@ -1511,34 +1511,31 @@ Short_Sleep, Low_Efficiency, Low_light_sleep은 귀무가설 채택 즉, 카페�
 <li>👩‍🎓 <strong>교육생</strong>: 흡연 자제, 규칙적인 운동</li>
 </ul>
 </section>
-<section id="통계적-한계" class="slide level2 scrollable">
+<section id="통계적-한계" class="slide level2">
 <h2>통계적 한계</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
+<div id="eef3af28" class="cell" data-execution_count="34">
+<div class="cell-output cell-output-display">
+<div>
+<figure>
+<p><img data-src="team6dash_files/figure-revealjs/cell-35-output-1.png" width="757" height="662"></p>
+</figure>
+</div>
+</div>
+</div>
 <p><br><br> <img data-src="12.png" style="width:100.0%"></p>
 <p><br><br></p>
 <p><img data-src="34.png" style="width:100.0%"></p>
 </div><div class="column" style="width:50%;">
-<ol type="1">
-<li>📉 <strong>다중공선성(Multicollinearity)</strong>
-<ul>
-<li><code>Light sleep</code>과 <code>Sleep efficiency</code>가 서로 강하게 연관되어 있음<br>
-</li>
-<li>독립 변수들 간의 상관이 높아 회귀 모형이 <strong>불안정</strong>해질 수 있음</li>
-</ul></li>
-</ol>
-<p><br></p>
-<ol start="2" type="1">
-<li>📊 <strong>비정규 분포 + 이분포 구조</strong>
-<ul>
-<li>독립 변수들이 <strong>정규성을 따르지 않음</strong><br>
-</li>
-<li>밀도 분포에서 <strong>두 개의 봉우리(이봉성)</strong>가 관찰됨<br>
-</li>
-<li>이는 <strong>데이터 내부에 하위 집단이 존재</strong>할 가능성을 시사하며<br>
-👉 <strong>이분화 분석</strong> 또는 <strong>군집 분석</strong>이 더 적절할 수 있음</li>
-</ul></li>
-</ol>
+<p><br> 1. 📉 <strong>다중공선성(Multicollinearity)</strong><br>
+- <code>Light sleep</code>과 <code>Deep sleep</code>가 서로 강하게 연관되어 있음<br>
+- 독립 변수들 간의 상관이 높아 회귀 모형이 <strong>불안정</strong>해질 수 있음</p>
+<p><br> <br> <br> <br> <br> <br> <br> <br> 2. 📊 <strong>비정규 분포 + 이분포 구조</strong><br>
+- 독립 변수들이 <strong>정규성을 따르지 않음</strong><br>
+- 밀도 분포에서 <strong>두 개의 봉우리(이봉성)</strong>가 관찰됨<br>
+- 이는 <strong>데이터 내부에 하위 집단이 존재</strong>할 가능성을 시사하며<br>
+👉 <strong>이분화 분석</strong> 또는 <strong>군집 분석</strong>이 더 적절할 수 있음</p>
 </div></div>
 
 </section></section>
