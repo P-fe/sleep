@@ -66,7 +66,7 @@ css: style.css      # 커스텀 CSS 추가
 ---
 
  ⟶강사님의 질문에 대한 **응답성 저하**  
- ⟶과연 LS미래원의 환경은 교육생들의 **수면 효율에 최적화**되어 있는가?
+ ⟶수면 효율 향상을 위해 Ls미래원과 우리는 **어떠한 노력**을 해야할까?
 
 <div style="text-align: center;">
   <img src="students_2.png" style="width: 80%;" />
